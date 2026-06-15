@@ -1,113 +1,53 @@
 ---
-title: "Using Markdown"
+title: "Introduction"
 teaching: 10
-exercises: 2
+exercises: 1
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How do you write a lesson using Markdown and `{sandpaper}`?
+- What is particle physics?
+- What is happening at the LHC?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Explain how to use markdown with The Carpentries Workbench
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks
+- Develop a very broad overview of what particle physics is
+- Develop a very broad overview of what particle physicists do
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Introduction
+# Introduction
 
-This is a lesson created via The Carpentries Workbench. It is written in
-[Pandoc-flavored Markdown](https://pandoc.org/MANUAL.txt) for static files and
-[R Markdown][r-markdown] for dynamic files that can render code into output. 
-Please refer to the [Introduction to The Carpentries 
-Workbench](https://carpentries.github.io/sandpaper-docs/) for full documentation.
+Particle physics is an broad field which focuses on the study of the very smallest particles. Even
+smaller than atoms! 
 
-What you need to know is that there are three sections required for a valid
-Carpentries lesson:
+If you only had 5 minutes to learn about particle physics and wanted the simplest explanation possible, 
+you could do worse than the [Simple Wikipedia entry for "Particle Physics"](https://simple.wikipedia.org/wiki/Particle_physics).
+Please read this! 
 
- 1. `questions` are displayed at the beginning of the episode to prime the
-    learner for the content.
- 2. `objectives` are the learning objectives for an episode displayed with
-    the questions.
- 3. `keypoints` are displayed at the end of the episode to reinforce the
-    objectives.
+If you only had more time and could handle a higher level of discussion, a good starting point is
+the [standard Wikipedia entry for "Particle Physics"](https://en.wikipedia.org/wiki/Particle_physics).
+Much of the material in the article will be covered in the next episodes of this lesson, but feel free to read through 
+it for a preview of what is to come.
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+## Overview of this lesson
 
-Inline instructor notes can help inform instructors of timing challenges
-associated with the lessons. They appear in the "Instructor View"
+You probably want more though, so we've provided more materials to prepare you for the workshop. 
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+- First, we have some videos aimed at the public that provide a broad overview of particle physics. They're not terribly long and worth watching. Given time, we also recommend a good documentary about the discovery of the Higgs particle.
+- We are fortunate to have access to some excellent lectures by one of our collaborators, [Dr. Allison Hall](https://www.usna.edu/Users/physics/hall/index.php). There are six (6) lectures and while all are great, we strongly encourage new students to at least watch the first 3. All the lectures have some optional exercises and links to additional resources.
+- Then we end with some basic computing challenges that walk you through a toy example of discovering particles. 
 
-::::::::::::::::::::::::::::::::::::: challenge 
+Good luck and enjoy learning about the fascinating field of particle physics!
 
-## Challenge 1: Can you do it?
-
-What is the output of this command?
-
-```r
-paste("This", "new", "lesson", "looks", "good")
-```
-
-:::::::::::::::::::::::: solution 
-
-## Output
- 
-```output
-[1] "This new lesson looks good"
-```
-
-:::::::::::::::::::::::::::::::::
-
-
-## Challenge 2: how do you nest solutions within challenge blocks?
-
-:::::::::::::::::::::::: solution 
-
-You can add a line with at least three colons and a `solution` tag.
-
-:::::::::::::::::::::::::::::::::
-::::::::::::::::::::::::::::::::::::::::::::::::
-
-## Figures
-
-You can use standard markdown for static figures with the following syntax:
-
-`![optional caption that appears below the figure](figure url){alt='alt text for
-accessibility purposes'}`
-
-![You belong in The Carpentries!](https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg){alt='Blue Carpentries hex person logo with no text.'}
-
-::::::::::::::::::::::::::::::::::::: callout
-
-Callout sections can highlight information.
-
-They are sometimes used to emphasise particularly important points
-but are also used in some lessons to present "asides": 
-content that is not central to the narrative of the lesson,
-e.g. by providing the answer to a commonly-asked question.
-
-::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-## Math
-
-One of our episodes contains $\LaTeX$ equations when describing how to create
-dynamic reports with {knitr}, so we now use mathjax to describe this:
-
-`$\alpha = \dfrac{1}{(1 - \beta)^2}$` becomes: $\alpha = \dfrac{1}{(1 - \beta)^2}$
-
-Cool, right?
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
+- Particle physics is the study of the objects that make up atoms.
+- Particle physicists try to understand how these particles interact with each other.
+- They often need to push the limits of technology to experimentally test different theories. 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
