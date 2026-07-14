@@ -38,7 +38,8 @@ You probably want more though, so we've provided more materials to prepare you f
 
 - First, we have some videos aimed at the public that provide a broad overview of particle physics. They're not terribly long and worth watching. Given time, we also recommend a good documentary about the discovery of the Higgs particle.
 - We are fortunate to have access to some excellent lectures by one of our collaborators, [Dr. Allison Hall](https://www.usna.edu/Users/physics/hall/index.php). There are six (6) lectures and while all are great, we strongly encourage new students to at least watch the first 3. All the lectures have some optional exercises and links to additional resources.
-- Then we end with some basic computing challenges that walk you through a toy example of discovering particles. 
+- Then we end with some basic computing challenges that walk you through a toy example of discovering particles and some slides/videos that provide a conceptual 
+overview of a complete analysis. 
 
 Good luck and enjoy learning about the fascinating field of particle physics!
 

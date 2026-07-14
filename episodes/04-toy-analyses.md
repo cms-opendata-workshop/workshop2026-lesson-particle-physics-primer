@@ -84,6 +84,10 @@ In [this activity](https://drive.google.com/file/d/1dKh1axZSlNTBHDpyMF4GZPofSIdD
 you are asked to calculate and make a histogram of the masses of many muons. Hopefully you get a very tight cluster
 around 0.105 GeV/c^2. 
 
+[These slides](https://docs.google.com/presentation/d/11gguILlKBtRCSh9jgkhrBNCc0lOzYsK-JCr5iD0gz6c/edit?usp=sharing) provide a brief reminder of the basic equations we use.
+
+[These slides](https://docs.google.com/presentation/d/1CMXeL3rUw2JKbQS1HdSJDM4_hWojGyEkXRPfh4-aAkQ/edit?usp=sharing) go into a bit more detail and are from the Spring 2026 PHYS 400: Nuclear and Particle Physics course at Siena University (M. Bellis).
+
 
 ## Discovering new particles
 
